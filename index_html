@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Avistamientos de OVNIs en EE.UU.</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #00ffcc;
+    }
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00ffcc;
+    }
+    h2 {
+      color: #00ccff;
+    }
+    footer {
+      background: #1f1f1f;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Avistamientos de OVNIs en Estados Unidos</h1>
+    <p>Análisis visual basado en datos reales</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Top 5 Formas de OVNIs</h2>
+      <img src="grafico_formas.png" alt="Gráfico de formas de OVNIs">
+      <p>Las formas más comunes reportadas incluyen luces, discos y esferas. Esto sugiere una percepción visual repetida entre los testigos.</p>
+    </section>
+
+    <section>
+      <h2>Avistamientos por Año</h2>
+      <img src="grafico_anual.png" alt="Gráfico de avistamientos por año">
+      <p>Se observa un aumento significativo en los reportes durante ciertos años. Esto podría correlacionarse con eventos mediáticos o avances tecnológicos.</p>
+    </section>
+
+    <section>
+      <h2>Top 10 Estados con Más Avistamientos</h2>
+      <img src="grafico_estados.png" alt="Gráfico de avistamientos por estado">
+      <p>California y Florida lideran en reportes de avistamientos, probablemente por su alta población y cielos despejados en muchas temporadas.</p>
+    </section>
+
+    <section>
+      <h2>Duración Promedio por Forma de OVNI</h2>
+      <img src="grafico_duracion.png" alt="Duración promedio de encuentros">
+      <p>Las formas más inusuales parecen asociarse con avistamientos más prolongados, lo que podría indicar un mayor interés o confusión del observador.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho por [Vicente Muñoz y Amada Morales] | Proyecto académico | Datos: UFO Sightings</p>
+  </footer>
+</body>
+</html>
