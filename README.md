@@ -76,7 +76,7 @@ La página web incluye los siguientes gráficos generados con **R** a partir de 
 
 ## 👨‍💻 Autor
 
-Proyecto realizado por **[Tu Nombre]** como parte de una actividad académica de análisis y visualización de datos.
+Proyecto realizado por **[Amada Morales y Vicente Muñoz]** como parte de una actividad académica de análisis y visualización de datos.
 
 ---
 
