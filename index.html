@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Avistamientos OVNI en EE.UU.</title>
+  <title>Avistamientos de OVNIs en Estados Unidos</title>
   <style>
     body {
       margin: 0;
@@ -23,7 +23,7 @@
       max-width: 1000px;
       border-radius: 15px;
     }
-    h1, h2 {
+    h1, h2, h3 {
       text-align: center;
       margin-bottom: 1rem;
     }
@@ -42,12 +42,25 @@
       width: 100%;
       height: auto;
     }
-
-    /* Mejora para pantallas pequeñas */
-    @media (max-width: 600px) {
-      p {
-        text-align: left;
-      }
+    table {
+      margin: 2rem auto;
+      width: 90%;
+      border-collapse: collapse;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+    }
+    th, td {
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+    .quote {
+      font-style: italic;
+      text-align: center;
+      margin-top: 2rem;
     }
   </style>
 </head>
@@ -56,33 +69,65 @@
     <h1>🌌 Avistamientos de OVNIs en Estados Unidos</h1>
 
     <p>
-      Este sitio presenta una visualización de datos basada en reportes de objetos voladores no identificados (OVNIs) observados en Estados Unidos.
-      Utilizando herramientas de análisis estadístico en R, se buscaron patrones en miles de registros para comprender mejor este misterioso fenómeno.
+      Este proyecto presenta una visualización exploratoria basada en reportes de avistamientos de objetos voladores no identificados (OVNIs) registrados en Estados Unidos. Se trata de un análisis de datos orientado a descubrir patrones, frecuencias y comportamientos comunes entre los miles de reportes recopilados a lo largo de los años.
     </p>
 
-    <h2>📊 Top 5 formas de OVNI</h2>
-    <p>
-      A continuación se muestran las cinco formas más reportadas por los testigos, destacando patrones comunes como esferas, luces y discos.
-    </p>
-    <img src="Imagenes/grafico_formas.png" alt="Top 5 formas de OVNI">
+    <img src="Imagenes/ovnis-3098846.webp" alt="Fondo interestelar OVNI">
 
-    <h2>📈 Avistamientos por Año</h2>
+    <h2>🛰️ Introducción</h2>
     <p>
-      Este gráfico revela cómo han evolucionado los reportes a lo largo de los años. Se pueden identificar ciertos picos que podrían estar relacionados con eventos culturales o tecnológicos.
+      Los OVNIs han capturado la imaginación de millones de personas en todo el mundo. A lo largo de los años, se han reportado miles de avistamientos, muchos de ellos en Estados Unidos, donde existe una larga tradición de investigación y documentación de fenómenos aéreos anómalos.
     </p>
-    <img src="Imagenes/grafico_anual.png" alt="Avistamientos por Año">
+    <p>
+      Este proyecto tiene como objetivo examinar estos datos de forma objetiva mediante herramientas estadísticas y visuales que permitan responder preguntas como:
+    </p>
+    <ul>
+      <li>¿Cuáles son las formas más comunes de OVNI reportadas?</li>
+      <li>¿En qué años se produjeron más avistamientos?</li>
+      <li>¿Qué estados reportan más fenómenos?</li>
+      <li>¿Hay alguna relación entre la forma del OVNI y la duración del avistamiento?</li>
+    </ul>
 
-    <h2>🗺️ Top 10 Estados con más Reportes</h2>
-    <p>
-      Algunos estados destacan significativamente por su número de reportes. Este gráfico identifica cuáles son y permite especular sobre factores locales que podrían influir.
-    </p>
-    <img src="Imagenes/grafico_estados.png" alt="Top 10 estados con más reportes">
+    <h2>📊 Visualizaciones incluidas</h2>
 
-    <h2>⏱️ Duración Promedio por Forma de OVNI</h2>
-    <p>
-      ¿Las formas influyen en cuánto duran los encuentros? Este análisis muestra las formas con los tiempos promedio más extensos según los testigos.
-    </p>
-    <img src="Imagenes/grafico_duracion.png" alt="Duración promedio por forma de OVNI">
+    <h3>🛸 Top 5 Formas de OVNI Reportadas</h3>
+    <img src="Imagenes/grafico_formas.png" alt="Formas más comunes de OVNIs">
+    <p>Las formas más comunes incluyen esferas, luces, discos y triángulos.</p>
+
+    <h3>📅 Avistamientos por Año</h3>
+    <img src="Imagenes/grafico_anual.png" alt="Avistamientos anuales">
+    <p>El número de avistamientos creció significativamente desde los años 90, alcanzando picos entre 2008 y 2014.</p>
+
+    <h3>🗺️ Top 10 Estados con Más Avistamientos</h3>
+    <img src="Imagenes/grafico_estados.png" alt="Estados con más reportes">
+    <p>California, Florida, y Washington son los estados que más reportes concentran.</p>
+
+    <h3>⏱️ Duración Promedio por Forma de OVNI</h3>
+    <img src="Imagenes/grafico_duracion.png" alt="Duración promedio por forma">
+    <p>Las formas como "changing" o "cylinder" presentan encuentros significativamente más prolongados.</p>
+
+    <h2>🛠️ Herramientas utilizadas</h2>
+    <table>
+      <tr><th>Herramienta</th><th>Propósito</th></tr>
+      <tr><td>readxl</td><td>Lectura de archivos Excel</td></tr>
+      <tr><td>dplyr</td><td>Manipulación y filtrado de datos</td></tr>
+      <tr><td>ggplot2</td><td>Generación de visualizaciones</td></tr>
+      <tr><td>lubridate</td><td>Manejo de fechas</td></tr>
+      <tr><td>scales</td><td>Formato de ejes y escalas en los gráficos</td></tr>
+      <tr><td>RStudio</td><td>Entorno de desarrollo en R</td></tr>
+      <tr><td>HTML + CSS</td><td>Creación del sitio web estático</td></tr>
+    </table>
+
+    <p><strong>Fuente:</strong> <a href="https://www.kaggle.com/datasets/NUFORC/ufo-sightings" target="_blank" style="color: lightblue;">UFO Sightings Dataset - Kaggle</a></p>
+    <ul>
+      <li><strong>Cobertura:</strong> Avistamientos entre 1906 y 2014 (EE.UU.)</li>
+      <li><strong>Variables:</strong> Fecha, lugar, duración, forma del objeto, país, etc.</li>
+    </ul>
+
+    <h2>👨‍💻 Autor</h2>
+    <p>Proyecto realizado por <strong>Amada Morales y Vicente Muñoz</strong> como parte de una actividad académica de análisis y visualización de datos.</p>
+
+    <p class="quote">_"La verdad está ahí afuera... pero los datos están aquí."_</p>
   </div>
 </body>
 </html>
