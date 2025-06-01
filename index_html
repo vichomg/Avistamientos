@@ -57,25 +57,25 @@
     <p>
       A continuación se muestran las cinco formas más reportadas por los testigos, destacando patrones comunes como esferas, luces y discos.
     </p>
-    <img src="grafico_formas.png" alt="Top 5 formas de OVNI">
+    <img src="imagenes/grafico_formas.png" alt="Top 5 formas de OVNI">
 
     <h2>📈 Avistamientos por Año</h2>
     <p>
       Este gráfico revela cómo han evolucionado los reportes a lo largo de los años. Se pueden identificar ciertos picos que podrían estar relacionados con eventos culturales o tecnológicos.
     </p>
-    <img src="grafico_anual.png" alt="Avistamientos por Año">
+    <img src="imagenes/grafico_anual.png" alt="Avistamientos por Año">
 
     <h2>🗺️ Top 10 Estados con más Reportes</h2>
     <p>
       Algunos estados destacan significativamente por su número de reportes. Este gráfico identifica cuáles son y permite especular sobre factores locales que podrían influir.
     </p>
-    <img src="grafico_estados.png" alt="Top 10 estados con más reportes">
+    <img src="imagenes/grafico_estados.png" alt="Top 10 estados con más reportes">
 
     <h2>⏱️ Duración Promedio por Forma de OVNI</h2>
     <p>
       ¿Las formas influyen en cuánto duran los encuentros? Este análisis muestra las formas con los tiempos promedio más extensos según los testigos.
     </p>
-    <img src="grafico_duracion.png" alt="Duración promedio por forma de OVNI">
+    <img src="imagenes/grafico_duracion.png" alt="Duración promedio por forma de OVNI">
   </div>
 </body>
 </html>
