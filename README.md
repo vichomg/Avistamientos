@@ -2,44 +2,82 @@
 
 Este proyecto presenta una visualización exploratoria basada en reportes de avistamientos de objetos voladores no identificados (OVNIs) registrados en Estados Unidos. Se trata de un análisis de datos orientado a descubrir patrones, frecuencias y comportamientos comunes entre los miles de reportes recopilados a lo largo de los años.
 
+<img src="imagenes-de-espacio-exterior-4qy5d3cn2v1v9fpm.jpg" width="100%" alt="Fondo interestelar OVNI" />
+
+---
+
 ## 🛰️ Introducción
 
-Los OVNIs han capturado la imaginación de millones de personas en todo el mundo. A lo largo de los años, se han reportado miles de avistamientos, muchos de ellos en Estados Unidos, donde existe una larga tradición de investigación y documentación de fenómenos aéreos anómalos. Este proyecto tiene como objetivo examinar estos datos de forma objetiva mediante herramientas estadísticas y visuales que permitan responder preguntas como:
+Los OVNIs han capturado la imaginación de millones de personas en todo el mundo. A lo largo de los años, se han reportado miles de avistamientos, muchos de ellos en Estados Unidos, donde existe una larga tradición de investigación y documentación de fenómenos aéreos anómalos.
+
+Este proyecto tiene como objetivo examinar estos datos de forma objetiva mediante herramientas estadísticas y visuales que permitan responder preguntas como:
 
 - ¿Cuáles son las formas más comunes de OVNI reportadas?
 - ¿En qué años se produjeron más avistamientos?
 - ¿Qué estados reportan más fenómenos?
 - ¿Hay alguna relación entre la forma del OVNI y la duración del avistamiento?
 
+---
+
 ## 📊 Visualizaciones incluidas
 
-La página web incluye los siguientes gráficos generados con R:
+La página web incluye los siguientes gráficos generados con **R** a partir de un dataset real:
 
-1. **Top 5 formas de OVNI**  
-   Presenta las formas más comúnmente reportadas por los testigos (por ejemplo: esfera, luz, disco).
+### 1. 🛸 Top 5 Formas de OVNI Reportadas
 
-2. **Avistamientos por año**  
-   Muestra cómo han variado los reportes a lo largo del tiempo, revelando picos en ciertos años.
+<img src="grafico_formas.png" width="700px" alt="Formas más comunes de OVNIs" />
 
-3. **Top 10 estados con más reportes**  
-   Identifica los estados de EE.UU. con mayor cantidad de reportes, destacando tendencias regionales.
+> Las formas más comunes incluyen esferas, luces, discos y triángulos.
 
-4. **Duración promedio por forma de OVNI**  
-   Compara cuánto duran en promedio los encuentros según la forma del objeto avistado.
+---
+
+### 2. 📅 Avistamientos por Año
+
+<img src="grafico_anual.png" width="700px" alt="Avistamientos anuales" />
+
+> El número de avistamientos creció significativamente desde los años 90, alcanzando picos entre 2008 y 2014.
+
+---
+
+### 3. 🗺️ Top 10 Estados con Más Avistamientos
+
+<img src="grafico_estados.png" width="700px" alt="Estados con más reportes" />
+
+> California, Florida, y Washington son los estados que más reportes concentran.
+
+---
+
+### 4. ⏱️ Duración Promedio por Forma de OVNI
+
+<img src="grafico_duracion.png" width="700px" alt="Duración promedio por forma" />
+
+> Las formas como "changing" o "cylinder" presentan encuentros significativamente más prolongados.
+
+---
 
 ## 🛠️ Herramientas utilizadas
 
-- **Lenguaje de programación:** R (con RStudio)
-- **Librerías de análisis y visualización:**
-  - `dplyr`
-  - `ggplot2`
-  - `readxl`
-  - `lubridate`
-  - `scales`
-- **Tecnología web:** HTML5, CSS3
-- **Hospedaje del sitio:** GitHub Pages
+| Herramienta    | Propósito                               |
+|----------------|------------------------------------------|
+| `readxl`       | Lectura de archivos Excel                |
+| `dplyr`        | Manipulación y filtrado de datos         |
+| `ggplot2`      | Generación de visualizaciones            |
+| `lubridate`    | Manejo de fechas                         |
+| `scales`       | Formato de ejes y escalas en los gráficos |
+| `RStudio`      | Entorno de desarrollo en R               |
+| `HTML + CSS`   | Creación del sitio web estático          |
 
-## 🌐 Sitio web
+---
+ **Fuente:** [UFO Sightings Dataset - Kaggle](https://www.kaggle.com/datasets/NUFORC/ufo-sightings)
+- **Cobertura:** Avistamientos entre 1906 y 2014 (EE.UU.)
+- **Variables:** Fecha, lugar, duración, forma del objeto, país, etc.
 
-Puedes explorar la página aquí:  
-➡️ [https://tuusuario.github.io/nombre-repositorio](https://tuusuario.github.io/nombre-repositorio)
+---
+
+## 👨‍💻 Autor
+
+Proyecto realizado por **[Tu Nombre]** como parte de una actividad académica de análisis y visualización de datos.
+
+---
+
+> _"La verdad está ahí afuera... pero los datos están aquí."_
