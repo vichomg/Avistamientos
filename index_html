@@ -8,7 +8,7 @@
     body {
       margin: 0;
       padding: 0;
-      background-image: url('imagenes/imagenes-de-espacio-exterior-4qy5d3cn2v1v9fpm.jpg');
+      background-image: url('imagenes/imagen_espacio.jpg');
       background-size: cover;
       background-attachment: fixed;
       background-position: center;
