@@ -57,11 +57,13 @@
 </audio>
 
 <script>
-  window.onload = function() {
+  document.body.addEventListener('click', function() {
     var audio = document.getElementById('bg-music');
-    audio.volume = 0.3; // Ajusta el volumen aquí (0.0 a 1.0)
-    audio.play();
-  };
+    if (audio.paused) {
+      audio.volume = 0.3;
+      audio.play();
+    }
+  });
 </script>
 
 <div class="container">
