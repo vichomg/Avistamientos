@@ -47,6 +47,16 @@
       font-style: italic;
       margin-top: 1rem;
     }
+    .music-button {
+      display: block;
+      margin: 1rem auto;
+      padding: 0.5rem 1rem;
+      background-color: #1a1a1a;
+      color: white;
+      border: 2px solid white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -86,10 +96,12 @@
     <p>Proyecto realizado por <strong>Amada Morales y Vicente Muñoz</strong> como parte de una actividad académica de análisis y visualización de datos.</p>
 
     <p class="quote">_"La verdad está ahí afuera... pero los datos están aquí."_</p>
+
+    <button class="music-button" onclick="document.getElementById('bg-music').play()">Reproducir Música</button>
   </div>
 
   <!-- 🎵 Música ambiental -->
-  <audio autoplay loop>
+  <audio id="bg-music" loop>
     <source src="Imagenes/ethereal_sci_fi_ambient.mp3" type="audio/mpeg">
     Tu navegador no soporta la reproducción de audio.
   </audio>
