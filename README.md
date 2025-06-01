@@ -2,7 +2,7 @@
 
 Este proyecto presenta una visualización exploratoria basada en reportes de avistamientos de objetos voladores no identificados (OVNIs) registrados en Estados Unidos. Se trata de un análisis de datos orientado a descubrir patrones, frecuencias y comportamientos comunes entre los miles de reportes recopilados a lo largo de los años.
 
-<img src="imagenes-de-espacio-exterior-4qy5d3cn2v1v9fpm.jpg" width="100%" alt="Fondo interestelar OVNI" />
+<img src="ovnis-3098846.webp" width="100%" alt="Fondo interestelar OVNI" />
 
 ---
 
