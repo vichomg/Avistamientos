@@ -6,82 +6,77 @@
   <title>Avistamientos de OVNIs en EE.UU.</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #0d0d0d;
-      color: #f2f2f2;
-      line-height: 1.6;
       margin: 0;
-      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      background-image: url('imagenes-de-espacio-exterior-4qy5d3cn2v1v9fpm.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
     }
-    header {
-      background: #1f1f1f;
-      padding: 20px;
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      min-height: 100vh;
+      padding: 40px;
+    }
+
+    h1, h2 {
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      color: #00ffcc;
-    }
-    main {
+
+    .grafico {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
       padding: 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    section {
-      margin-bottom: 50px;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
+      border-radius: 12px;
       box-shadow: 0 0 10px #00ffcc;
     }
-    h2 {
-      color: #00ccff;
+
+    .grafico img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(255,255,255,0.5);
     }
+
     footer {
-      background: #1f1f1f;
-      color: #ccc;
       text-align: center;
-      padding: 20px;
-      margin-top: 50px;
+      margin-top: 40px;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Avistamientos de OVNIs en Estados Unidos</h1>
-    <p>Análisis visual basado en datos reales</p>
-  </header>
+  <div class="overlay">
+    <h1>🌌 Avistamientos de OVNIs en EE.UU.</h1>
+    <p style="text-align:center; max-width: 800px; margin: 0 auto 40px;">
+      Exploración visual basada en reportes reales de fenómenos aéreos no identificados. Descubre cómo se distribuyen los avistamientos por año, estado, forma y duración.
+    </p>
 
-  <main>
-    <section>
-      <h2>Top 5 Formas de OVNIs</h2>
-      <img src="grafico_formas.png" alt="Gráfico de formas de OVNIs">
-      <p>Las formas más comunes reportadas incluyen luces, discos y esferas. Esto sugiere una percepción visual repetida entre los testigos.</p>
-    </section>
+    <div class="grafico">
+      <h2>📅 Avistamientos por Año</h2>
+      <img src="grafico_anual.png" alt="Gráfico de Avistamientos por Año">
+    </div>
 
-    <section>
-      <h2>Avistamientos por Año</h2>
-      <img src="grafico_anual.png" alt="Gráfico de avistamientos por año">
-      <p>Se observa un aumento significativo en los reportes durante ciertos años. Esto podría correlacionarse con eventos mediáticos o avances tecnológicos.</p>
-    </section>
+    <div class="grafico">
+      <h2>📍 Avistamientos por Estado</h2>
+      <img src="grafico_estados.png" alt="Gráfico de Avistamientos por Estado">
+    </div>
 
-    <section>
-      <h2>Top 10 Estados con Más Avistamientos</h2>
-      <img src="grafico_estados.png" alt="Gráfico de avistamientos por estado">
-      <p>California y Florida lideran en reportes de avistamientos, probablemente por su alta población y cielos despejados en muchas temporadas.</p>
-    </section>
+    <div class="grafico">
+      <h2>🛸 Formas Más Comunes</h2>
+      <img src="grafico_formas.png" alt="Gráfico de Formas de OVNIs">
+    </div>
 
-    <section>
-      <h2>Duración Promedio por Forma de OVNI</h2>
-      <img src="grafico_duracion.png" alt="Duración promedio de encuentros">
-      <p>Las formas más inusuales parecen asociarse con avistamientos más prolongados, lo que podría indicar un mayor interés o confusión del observador.</p>
-    </section>
-  </main>
+    <div class="grafico">
+      <h2>⏱️ Duración Promedio por Forma</h2>
+      <img src="grafico_duracion.png" alt="Gráfico de Duración Promedio">
+    </div>
 
-  <footer>
-    <p>Hecho por [Vicente Muñoz y Amada Morales] | Proyecto académico | Datos: UFO Sightings</p>
-  </footer>
+    <footer>
+      <p>🛸 Proyecto académico | Datos reales de avistamientos | 2025</p>
+    </footer>
+  </div>
 </body>
 </html>
